@@ -1,22 +1,22 @@
-# Download ollama
-# https://ollama.com/
+## Download ollama
+https://ollama.com/
 
-# Install and run llama3 8b instruct in terminal
+## Install and run llama3 8b instruct in terminal
 ollama run llama3
 
 
-# 1. Setup virtual environment for python
+## 1. Setup virtual environment for python
 virtualenv env
 source ./env/bin/activate
 pip install --upgrade pip
 
-# 2. Install ollama and langchain_community package in the virtual environment
-# ollama lets us easily use llama3 8b
-# langchain_community offers sufisticated functions to load, split and embed pdfs
+## 2. Install ollama and langchain_community package in the virtual environment
+## ollama lets us easily use llama3 8b
+## langchain_community offers sufisticated functions to load, split and embed pdfs
 pip install -r requirements.txt
 
 
-# 3. Put PDFs in pdfs/ sub-folder + adjust prompt
+## 3. Put PDFs in pdfs/ sub-folder + adjust prompt
 
-# 4. run  python script
+## 4. run  python script
 python llama3-8b-rag-test.py
