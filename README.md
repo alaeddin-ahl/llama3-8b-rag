@@ -3,7 +3,7 @@ https://ollama.com/
 
 ## Install and run llama3 8b instruct in terminal
 ```
-ollama run llama3
+ollama run llama3.1
 ```
 
 ## 1. Setup virtual environment for python
@@ -24,5 +24,5 @@ pip install -r requirements.txt
 
 ## 4. run  python script
 ```
-python llama3-8b-rag-test.py
+python local_rag.py
 ```
