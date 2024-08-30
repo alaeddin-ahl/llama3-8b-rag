@@ -26,3 +26,17 @@ pip install -r requirements.txt
 ```
 python local_rag.py
 ```
+
+## 5. run server (optional)
+```
+python server.py
+```
+
+```
+curl --request POST \
+  --url http://localhost:8080/query \
+  --header 'Content-Type: application/json' \
+  --data '{
+	"message": "tell me about mental health"
+}'
+```
